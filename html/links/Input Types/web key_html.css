@@ -1,0 +1,430 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    html {
+                        scroll-behavior: smooth;
+                        transition: all 0.5s;
+                    }
+                    
+                    body {
+                        background-color: rgb(236, 239, 241);
+                        /*user-select: none;*/
+                    }
+                    
+                    .f2 a {
+                        text-decoration: none;
+                    }
+                    
+                    .f2 {
+                        color: rgb(0, 131, 0);
+                        background-color: #fff;
+                        width: 250%;
+                        height: 90px;
+                    }
+                    
+                    .f2 h1 {
+                        display: inline-block;
+                        margin-left: 20px;
+                        font-size: 40px;
+                        font-weight: bold;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                    
+                    .f2 img {
+                        margin-top: -18px;
+                        float: left;
+                        transition: all 0.5s;
+                        width: 300px;
+                    }
+                    
+                    .f3 {
+                        background-color: rgb(68, 68, 68);
+                        width: 250%;
+                        height: 60px;
+                        color: #fff;
+                    }
+                    
+                    .f3 h2 {
+                        margin-left: 50px;
+                        display: inline-block;
+                        height: 40px;
+                        padding: 20px 20px 0px 20px;
+                        padding-top: 20px;
+                        color: rgb(255, 255, 255);
+                        font-size: 20px;
+                        font-weight: 900;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                    /* #00e673*/
+                    
+                    .f3 .html {
+                        margin-left: 180px;
+                        background-image: linear-gradient(green, rgb(0, 0, 0), green);
+                        color: #fff;
+                        transition: all 0.5s;
+                    }
+                    
+                    h2:hover {
+                        color: #000;
+                    }
+                    
+                    .f1 {
+                        position: fixed;
+                    }
+                    
+                    .h1 {
+                        font-weight: 800;
+                        color: rgb(208, 0, 0);
+                        margin-left: 110px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        margin-top: 15px;
+                        font-size: 40px;
+                    }
+                    
+                    .h3_2 {
+                        font-size: 25px;
+                        margin-top: 10px;
+                        margin-left: 185px;
+                        color: #900;
+                        font-weight: 500;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                    }
+                    
+                    .m1_11g {
+                        margin-top: 8px;
+                        margin-left: 150px;
+                        background-color: rgb(138, 138, 138);
+                        width: 800px;
+                        height: 720px;
+                        border-radius: 10px;
+                        transition: all 0.5s;
+                    }
+                    
+                    .m1_11g h3 {
+                        font-size: 30px;
+                        transition: all 0.5s;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-weight: bold;
+                        padding: 8px;
+                        margin-left: 25px;
+                        display: inline-block;
+                    }
+                    
+                    .m1_00g {
+                        background-color: #fff;
+                        width: 91%;
+                        transition: all 0.5s;
+                        margin-left: 30px;
+                        height: 90%;
+                        border-radius: 5px;
+                        border-left: rgb(0, 71, 165) 5px solid;
+                    }
+                    
+                    .p2 {
+                        display: inline-block;
+                        font-size: 26px;
+                        font-weight: 500;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        margin-left: 150px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                    }
+                    
+                    .n111 {
+                        margin-left: 150px;
+                        display: inline-block;
+                    }
+                    
+                    .n111 span {
+                        font-size: 22px;
+                        font-weight: 520;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        color: rgb(0, 0, 0);
+                        border-bottom: rgb(211, 0, 0) 2px solid;
+                        font-weight: 500;
+                        line-height: 40px;
+                    }
+                    
+                    .n111 h3,
+                    h4 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        display: inline-block;
+                        margin-left: 5px;
+                    }
+                    
+                    .n111 p {
+                        margin-left: 20px;
+                        font-weight: 500;
+                        margin-top: 2px;
+                        font-size: 18px;
+                        color: #444;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    }
+                    
+                    #tag {
+                        color: rgb(218, 0, 0);
+                        background-color: rgb(255, 255, 255);
+                        font-size: 16px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        line-height: 25px;
+                        border: none;
+                    }
+                    
+                    .k {
+                        background-color: rgb(90, 90, 90);
+                        width: 50px;
+                        padding: 8px;
+                        font-size: 40px;
+                        color: rgb(255, 255, 255);
+                        text-shadow: #000 5px 5px 10px;
+                        border-radius: 0px 20px 20px 0px;
+                        padding-left: 15px;
+                        /* box-shadow: rgb(112, 112, 112)5px 5px 10px;*/
+                        margin-left: -10px;
+                        margin-top: 60px;
+                        position: fixed;
+                        transition: all 1s;
+                    }
+                    
+                    .k:hover {
+                        transition: all 1s;
+                        margin-left: 10px;
+                        border-radius: 20px;
+                        padding-left: 20px;
+                    }
+                    
+                    .sidevan {
+                        height: 100%;
+                        width: 350px;
+                        position: fixed;
+                        z-index: 1;
+                        top: 0;
+                        background-color: #000000cb;
+                        left: -1000px;
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        padding-top: 60px;
+                        border-right: rgb(255, 255, 255) solid 2px;
+                    }
+                    
+                    .sidevan a {
+                        padding: 8px 8px 8px 32px;
+                        text-decoration: none;
+                        font-size: 27px;
+                        transition: all 0.5s;
+                        display: block;
+                        font-weight: 500;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: rgb(255, 255, 255);
+                        text-shadow: #000 3px 3px 8px;
+                        border-bottom: solid 2px rgb(255, 255, 255);
+                        line-height: 50px;
+                    }
+                    
+                    .sidevan a:hover {
+                        color: rgb(223, 0, 0);
+                        transition: all 0.5s;
+                        text-shadow: none;
+                        font-size: 25px;
+                    }
+                    
+                    .sidevan .closebth {
+                        position: absolute;
+                        top: -10px;
+                        right: 0px;
+                        font-size: 36px;
+                        margin-left: 50px;
+                        transition: all 0.5s;
+                        font-weight: 100;
+                        display: inline-block;
+                        color: rgb(255, 255, 255);
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        width: 25px;
+                        padding: 10px;
+                        border-bottom-left-radius: 5px;
+                    }
+                    
+                    .sidevan .closebth:hover {
+                        background-color: rgb(255, 0, 0);
+                        transition: all 0.3s;
+                    }
+                    
+                    .close {
+                        display: inline-block;
+                        position: absolute;
+                        top: 15px;
+                        color: #fff;
+                        font-size: 30px;
+                        margin-left: 30px;
+                        transition: all 0.5s;
+                        font-weight: 500;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        text-shadow: rgb(0, 0, 0) 3px 3px 8px;
+                    }
+                    
+                    .wed_sit a {
+                        margin-top: 70px;
+                        display: inline-block;
+                        border: none;
+                        padding: 10px;
+                    }
+                    
+                    .wed_sit img {
+                        transition: all 0.5s;
+                    }
+                    
+                    .wed_sit img:hover {
+                        transition: all 0.5s;
+                        width: 43px;
+                    }
+                    
+                    .black_contenr {
+                        width: 100%;
+                        height: 320px;
+                        background-color: black;
+                        color: #fff;
+                        /* padding: 10px;*/
+                    }
+                    
+                    .black_one {
+                        display: inline-block;
+                        margin-left: 70px;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .fff {
+                        display: inline-block;
+                        margin-left: 70px;
+                    }
+                    
+                    .black_tow {
+                        display: inline-block;
+                        margin-left: 70px;
+                    }
+                    
+                    .black_contenr span {
+                        font-size: 20px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-weight: 500;
+                        margin-left: -15px;
+                        line-height: 30px;
+                    }
+                    
+                    .black_contenr li {
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        list-style-type: none;
+                    }
+                    
+                    .black_contenr img {
+                        margin-top: 20px;
+                        margin-bottom: 15px;
+                        margin-left: 10px;
+                        display: inline-block;
+                        transition: all 0.5s;
+                    }
+                    
+                    .black_contenr img:hover {
+                        transition: all 0.5s;
+                        height: 35px;
+                    }
+                    
+                    .black_contenr .t1 {
+                        font-size: 22px;
+                        font-weight: 700;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        margin-top: 15px;
+                        transition: all 0.5s;
+                    }
+                    
+                    .black_contenr a {
+                        color: rgb(184, 184, 184);
+                    }
+                    
+                    .black_contenr a:hover {
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    .top {
+                        float: right;
+                        margin-right: 20px;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                    }
+                    
+                    .black_contenr .EXJAS {
+                        display: inline-block;
+                    }
+                    
+                    .Examples_css {
+                        display: inline-block;
+                    }
+                    /************************************Html**********************/
+                    
+                    .lt_gt {
+                        color: mediumblue;
+                        font-size: 20px;
+                        font-weight: 500;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                    
+                    .content {
+                        color: #900;
+                        font-size: 20px;
+                        margin-left: -5px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                    
+                    .properties {
+                        color: rgb(0, 9, 138);
+                        font-size: 20px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                    
+                    .properties_content {
+                        color: rgb(0, 175, 0);
+                        font-size: 20px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                    
+                    @media (min-width:922px) and (max-width:1320px) {
+                        .black_contenr .EXJAS {
+                            display: none;
+                        }
+                        .black_one {
+                            display: inline-block;
+                            margin-left: 50px;
+                            margin-bottom: 10px;
+                        }
+                        .fff {
+                            display: inline-block;
+                            margin-left: 50px;
+                        }
+                        .black_tow {
+                            display: inline-block;
+                            margin-left: 50px;
+                        }
+                        .m1_11g {
+                            width: 750px;
+                        }
+                        .properties_content {
+                            font-size: 18px;
+                        }
+                        .f3 .html {
+                            margin-left: 25px;
+                        }
+                        .f3 h2 {
+                            margin-left: 25px;
+                        }
+                    }
+                    
+                    .tit1e11 {
+                        color: green;
+                        margin-left: 10px;
+                        font-weight: 500;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
