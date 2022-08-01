@@ -1,0 +1,212 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .A {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 20vh;
+        }
+        
+        .Q {
+            background-color: rgb(209, 209, 209);
+            width: 100%;
+            height: 10vh;
+            margin-bottom: 8px;
+        }
+        
+        .M {
+            background-color: rgb(255, 255, 255);
+            width: 49%;
+            height: 64vh;
+            display: inline-block;
+            margin-left: 8px;
+            overflow: auto;
+            margin-top: 20px;
+        }
+        
+        .N {
+            background-color: rgb(255, 255, 255);
+            width: 47.6%;
+            height: 64vh;
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 10px;
+            overflow: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 20px;
+
+        }
+        
+        body {
+            background-color: rgb(209, 209, 209);
+        }
+        
+        .b1 {
+            background-color: #f71000;
+            width: 220px;
+            padding: 8px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            margin-left: 30px;
+            transition: all 1s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+        }
+        
+        .b1:hover {
+            background-color: #db0000;
+            transition: all 1s;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        #x100 {
+            display: none;
+            width: 97.4%;
+            height: 62.6vh;
+            background-color: rgb(255, 255, 255);
+            margin-left: 8px;
+            margin-top: 18px;
+            padding: 10px;
+            overflow: auto;
+        }
+        
+        .d1 {
+            background-color: #f71000;
+            width: 350px;
+            padding: 8px;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            transition: all 1s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+            float: right;
+            margin-right: 20px;
+            display: none;
+        }
+        
+        .d1:hover {
+            background-color: #db0000;
+            transition: all 1s;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        .d {
+            background-color: #f71000;
+            width: 350px;
+            padding: 8px;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            transition: all 1s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+            float: right;
+            margin-right: 20px;
+        }
+        
+        .d:hover {
+            background-color: #db0000;
+            transition: all 1s;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        .x100 p {
+            margin-left: 40px;
+                   font-weight: 500;
+                   margin-top: 2px;
+                   font-size: 18px;
+                   color: #444;
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               
+       }  @media (min-width:927px) and (max-width:1140px){
+            .M {
+                background-color: rgb(255, 255, 255);
+                width: 97%;
+                height: 66vh;
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                overflow: auto;
+            }
+            
+            .N {
+                background-color: rgb(255, 255, 255);
+                width: 97%;
+                height: 66vh;
+                display: inline-block;
+                margin-left: 5px;
+                margin-top: 10px;
+                overflow: auto;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+            .lt_gt,.html_m1,.font20px,.properties,.properties_content,.content,.content1{
+                transition: all 0.5s;
+                font-size: 18px;
+            }
+        }
+       /*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+       /*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+       /*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                .lt_gt {
+                    color: mediumblue;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                
+                .content1 {
+                    color: #900;
+                    font-size: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    margin-left: -5px;
+                }
+                
+                .content {
+                    color: #900;
+                    font-size: 20px;
+                    margin-left: -5px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                
+                .html_m1 {
+                    color: #ff0000;
+                    font-size: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                
+                .properties {
+                    color: rgb(0, 9, 138);
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                
+                .properties_content {
+                    color: rgb(0, 175, 0);
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                
+                .font20px {
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+                .lt_gt,.html_m1,.font20px,.properties,.properties_content,.content,.content1{
+                    transition: all 0.5s;
+                }

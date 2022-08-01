@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 239, 241);
+    transition: all 1s;
+
+}
+html {
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.f2 {
+    color: rgb(0, 131, 0);
+    background-color: #fff;
+    width: 250%;
+    height: 90px;
+}
+
+.f2 h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2 img {
+    margin-top: -18px;
+    width:300px;
+    float: left;
+    transition: all 0.5s;
+}
+
+
+
+.f3 {
+    background-color: rgb(68, 68, 68);
+    width: 250%;
+    height: 60px;
+    color: #fff;
+    transition: all 0.5s;
+
+}
+
+.f3 h2 {
+    margin-left: 50px;
+    display: inline-block;
+    height: 40px;
+    padding: 20px 20px 0px 20px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s;
+
+}
+
+
+/* #00e673*/
+
+
+.f3 .html {
+    transition: all 0.5s;
+    margin-left: 180px;
+}
+
+h2:hover {
+    color: #000;
+    transition: all 0.5s;
+
+}
+
+.f1 {
+    position: fixed;
+}
+.titel{
+    color: rgb(180, 0, 0);
+    font-size: 35px;transition: all 0.5s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ask{
+    font-size: 18px;transition: all 0.5s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.ask1{
+    font-size: 18px;transition: all 0.5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*color:#fff;*/
+}
+.front-end{
+    background:rgb(32, 32, 32);
+    color: #fff;
+    padding: 15px;transition: all 0.5s;
+}
+.front-end h4{
+    font-size: 18px;
+    /*color:#fff;transition: all 0.5s;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;transition: all 0.5s;
+    margin-left: 15px;
+
+
+}
+
+.front-end p{
+   font-size: 18px; transition: all 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 25px;
+}
+.front-end ol{
+    margin: 10px;transition: all 0.5s;
+}
+.front-end ol li{
+    margin-left: 55px;
+    font-size: 18px;transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.front-end summary{
+    font-size: 18px;
+    /*color:#fff;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;transition: all 0.5s;
+    margin-left: 15px;
+    font-weight: 900;
+}
+
+.front-end details{
+    margin-left: 20px;
+    padding: 10px;transition: all 0.5s;
+   /* background-color:#fff;color: #000;*/
+}
+
+.back-end{
+    background:rgb(149, 191, 219);
+    color: rgb(0, 0, 0);transition: all 0.5s;
+    padding: 15px;
+}
+.back-end h4{
+    font-size: 18px;
+    /*color:#fff;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;transition: all 0.5s;
+    margin-left: 15px;
+
+
+}
+
+.back-end p{
+   font-size: 18px; transition: all 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 25px;
+}
+.back-end ol{
+    margin: 10px;transition: all 0.5s;
+}
+.back-end ol li{
+    margin-left: 75px;
+    font-size: 18px;transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.back-end summary{
+    font-size: 18px;transition: all 0.5s;
+    /*color:#fff;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    margin-left: 15px;
+    font-weight: 900;
+}
+
+.back-end details{
+    margin-left: 40px;transition: all 0.5s;
+    padding: 10px;
+    /*background-color:#fff;color: #000;*/
+}
+
+.full-stack{
+    background-image: linear-gradient(#fff,#fff,#fff,#fff,rgb(236, 239, 241));
+    color: rgb(0, 0, 0);transition: all 0.5s;
+    padding: 15px;
+   /* border-bottom:solid 2px #000;
+*/
+
+}
+.full-stack h4{
+    font-size: 18px;transition: all 0.5s;
+    /*color:#fff;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    margin-left: 15px;
+
+
+}
+.sp_li{
+    color: rgb(218, 0, 0);
+                    background-color: rgb(255, 255, 255);
+                    font-size: 17px;transition: all 0.5s;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    border: none;
+}
+.full-stack p{
+   font-size: 18px; transition: all 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 25px;
+}
+.h3-ask{
+    font-size: 18px;transition: all 0.5s;
+    /*color:#fff;transition: all 0.5s;
+    */font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    margin-left: 15px;
+}
+.b-ask{
+    font-size: 18px; transition: all 0.5s;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-left: 25px;
+ }
+.black_contenr {
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    color: #fff;
+    /* padding: 10px;*/
+}
+
+.black_one {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.fff {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.black_tow {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.black_contenr span {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-left: -15px;
+    line-height: 30px;
+}
+
+.black_contenr li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+
+.black_contenr img {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.black_contenr img:hover {
+    transition: all 0.5s;
+    height: 35px;
+}
+
+.black_contenr .t1 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+
+.black_contenr a {
+    color: rgb(184, 184, 184);
+}
+
+.black_contenr a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.top {
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.black_contenr .EXJAS {
+    display: inline-block;
+}
+
+.Examples_css {
+    display: inline-block;
+}
+@media (min-width:922px) and (max-width:1320px) {
+    .black_contenr .EXJAS {
+        display: none;
+    }
+    .black_one {
+        display: inline-block;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .fff {
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .black_tow {
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    
+.f3 .html {
+    margin-left: 25px;
+} 
+.f3 h2 {
+    margin-left: 25px;
+} 
+}
+
+.br-phone{display:none;}
+.br-tap{display:none}
+.br_desk{display:block}
+.br_desk1{display:inline-block}
+.br_desk2{display:inline-block}
+.br_desk3{display:inline-block}
+.marginleft{
+    margin-left: 0px;
+}
