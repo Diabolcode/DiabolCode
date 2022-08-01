@@ -1,0 +1,240 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: rgb(235, 235, 235);
+        }
+        
+        .A {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 20vh;
+        }
+        
+        .Q {
+            background-color: rgb(235, 235, 235);
+            width: 100%;
+            height: 10vh;
+            margin-bottom: 8px;
+        }
+        
+        .M {
+            background-color: rgb(255, 255, 255);
+            width: 49%;
+            height: 66vh;
+            display: inline-block;
+            margin-left: 8px;
+            overflow: auto;
+        }
+        
+        .N {
+            background-color: rgb(255, 255, 255);
+            width: 49%;
+            height: 66vh;
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 10px;
+            overflow: auto;
+        }
+        
+        hr {
+            border: rgb(255, 255, 255) solid 1px;
+        }
+        
+        .b1 {
+            background-color: #f71000;
+            width: 220px;
+            padding: 8px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            margin-left: 30px;
+            transition: all 1s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+        }
+        
+        .b1:hover {
+            background-color: #db0000;
+            transition: all 1s;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        .b2 {
+            background-color: #f71000;
+            width: 220px;
+            padding: 8px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            margin-left: 30px;
+            transition: all 1s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+        }
+        
+        .b2:hover {
+            background-color: #db0000;
+            transition: all 1s;
+            border-radius: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        #b3 {
+            background-image: linear-gradient(green, rgb(0, 0, 0), green);
+            width: 220px;
+            padding: 8px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            transition: all 0.5s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+            float: right;
+            margin-right: 30PX;
+        }
+        
+        #b3:hover {
+            transition: all 0.5s;
+            border-radius: 20px;
+        }
+        
+        #b4 {
+            background-image: linear-gradient(green, rgb(0, 0, 0), green);
+            width: 220px;
+            padding: 8px;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 80px 0px 80px 0px;
+            margin-top: 15px;
+            margin-left: 550px;
+            transition: all 0.5s;
+            box-shadow: 5px 5px 10px rgb(46, 46, 46);
+            display: none;
+            float: right;
+            margin-right: 30PX;
+        }
+        
+        #b4:hover {
+            transition: all 0.5s;
+            border-radius: 20px;
+        }
+        
+        #f {
+            background-color: #700;
+            color: #fff;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #700;
+            font-size: 12px;
+        }
+        
+        #f:hover {
+            background-color: #fff;
+            color: #700;
+            transition: all 0.5s;
+        }
+        
+        .lt_gt {
+            color: mediumblue;
+            font-size: 20px;
+            transition: all 0.5s;
+            font-weight: 500;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .content1 {
+            color: #900;
+            transition: all 0.5s;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: -5px;
+        }
+        
+        .content {
+            color: #900;
+            font-size: 20px;
+            transition: all 0.5s;
+            margin-left: -5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .html_m1 {
+            color: #ff0000;
+            transition: all 0.5s;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .properties {
+            color: rgb(0, 9, 138);
+            transition: all 0.5s;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .properties_content {
+            color: rgb(0, 175, 0);
+            transition: all 0.5s;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .font20px {
+            transition: all 0.5s;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        /*********************tansec code CSS*******************/
+        
+        .lt_gt_css {
+            color: mediumblue;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.5s;
+        }
+        /*el gosa elkhas be code */
+        
+        .color_005dd6 {
+            color: #005dd6;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transition: all 0.5s;
+            font-size: 20px;
+        }
+        /*el gosa elkhas be mota3er elcode*/
+        
+        .color_900 {
+            transition: all 0.5s;
+            color: rgb(0, 175, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        
+        .color {
+            color: #900;
+            transition: all 0.5s;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        
+        .color_900_info {
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transition: all 0.5s;
+            font-size: 20px;
+        }
