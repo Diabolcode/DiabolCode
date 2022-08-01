@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amaze Dental</title>
+     <style>*{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .div_one{
+        display: inline-block;
+        width: 100%;
+        height: 65px;
+        background-color: rgb(22, 22, 22);
+    }
+    .div_one p{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 18px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        color:#fff;
+        padding: 5px;
+        transition: all 0.5s;
+    
+    }
+    .div_one p:hover{
+        transition: all 0.5s;
+        color:#ddd;
+        
+    }.div{
+        background-image:  linear-gradient(rgba(0,0, 0, 0.20),rgba(0,0, 0, 0.20)), url(one.jpg);
+        width: 100;
+        height: 580px;
+        background-size: cover;
+    }
+    .h2{
+       
+        border-bottom: 2px solid rgb(197, 197, 197);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        display: inline-block;
+        padding: 15px;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    
+    .div_a{
+        width: 25%;
+        height:auto;
+        display: inline-block;
+        margin: 0px 140px 0px 250px;
+        text-align: center;
+        padding:10px;
+    }
+    .div_a p{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        padding: 5px;
+        transition: all 0.5s;
+    margin-bottom: 10px;
+    display: inline-block;
+    }
+    
+    .div_a input{
+        background-color: #900;
+        color:#fff;
+        padding:10px;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border:none;
+        transition: all 0.5s;
+        border-radius: 5px;
+        width: 150px;
+    }
+    .div_a input:hover{
+        background-color: #800;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+    .div_b{
+        width: 25%;
+        height:auto;
+        display: inline-block;
+        text-align: center;
+        padding:10px;
+    }
+    .div_b p{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        padding: 5px;
+        margin-bottom: 10px;
+        transition: all 0.5s;
+        display: inline-block;
+    }
+    
+    .div_b input{
+        background-color: #900;
+        color:#fff;
+        padding:10px;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border:none;
+        transition: all 0.5s;
+        border-radius: 5px;
+        width: 150px;
+    }
+    .div_b input:hover{
+        background-color: #800;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+    .bot1{ display:none; }
+    .table{margin: 10px; display: none;}
+    td{padding: 5px;text-align: left;}
+    
+    </style>
+</head>
+<body>
+    <div class="div_one">
+        <!--logo-->
+        <p>Amaze Dental</p>
+        <p style="border-left: #fff 2px  solid;">Home</p>
+        <p style="float: right;">Login</p>
+    </div>
+    <div class="div"> </div>
+
+    <br>
+    <center>
+
+    <h2 class="h2">Amaze Dental</h2></center>
+    <br><br>
+
+    <div class="div_a">
+    <img src="img_one.jpg" alt="" width="250">
+    <p class="p_one">Clinic Name</p>
+    <br>
+    
+    <input type="button" value="More Detailes" onclick="f1()" id="bot2">
+
+    <input type="button" value="Less Detailes" onclick="f2()" id="bot11"class="bot1">
+    <table border ="1" class="table" id="table">
+        <tr><td>Doctor Name</td><td>Dane Walker. <br>Sr.Facultf Data Science.</td></tr>
+        <tr><td>Work Time</td><td>Mon to friday -- 07:00AM to 10:PM</td></tr>
+        <tr><td>Treatment Fee</td><td>10$</td></tr>
+        <tr><td colspan ="2" style="text-align: center;"><input type="button" value="Book A Session" onclick="alert('The request was successfully completed');" ></td></tr>
+    </table>
+    
+</div>
+<div class="div_b">
+    <img src="img_tow.jpg" width="250">
+    <p class="p_tow">Clinic Name</p>
+    <br>
+    <input type="button" value="More Detailes" onclick="f3()" id="bot3">
+
+    <input type="button" value="Less Detailes" onclick="f4()" id="bot4"class="bot1">
+    <table border ="1" id="table1"class="table">
+        <tr><td>Doctor Name</td><td>Dane Walker. <br> Sr.Facultf Data Science.</td></tr>
+        <tr><td>Work Time</td><td>Mon to friday -- 07:00AM to 10:PM</td></tr>
+        <tr><td>Treatment Fee</td><td>10$</td></tr>
+        <tr><td colspan ="2" style="text-align: center;"><input type="button" value="Book A Session" onclick="alert('The request was successfully completed');" ></td></tr>
+    
+    </table>
+    </div>
+    <br><br><br>
+    <script>
+        function f1(){
+           document.getElementById('bot2').style.display="none";
+            document.getElementById('bot11').style.display="inline-block";
+            document.getElementById('table').style.display="block";
+        }  
+         function f3(){
+           document.getElementById('bot3').style.display="none";
+            document.getElementById('bot4').style.display="inline-block";
+            document.getElementById('table1').style.display="block";
+        }
+        function f2(){
+           document.getElementById('bot2').style.display="inline-block";
+            document.getElementById('bot11').style.display="none";
+            document.getElementById('table').style.display="none";
+        }
+        function f4(){
+           document.getElementById('bot3').style.display="inline-block";
+            document.getElementById('bot4').style.display="none";
+            document.getElementById('table1').style.display="none";
+                }
+    </script>
+</body>
+</html>
