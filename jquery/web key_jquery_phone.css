@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 239, 241);
+    transition: all 0.5s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.f2 {
+    color: rgb(0, 131, 0);
+    background-color: rgb(255, 255, 255);
+    width: 250%;
+    height: 60px;
+    
+}
+
+.f2 h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2 img {
+    margin-top: -10px;
+    float: left;
+    width: 200px;
+}
+
+.f3 {
+    background-color: rgb(68, 68, 68);
+    width: 250%;
+    height: 45px;
+    color: #fff;
+}
+
+.f3 h2 {
+    margin-left: 10px;
+    display: inline-block;
+    height: 30px;
+    padding: 8px 8px 0px 8px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.f3 .html {
+    transition: all 0.5s;
+    margin-left: 0px;
+}
+
+
+/* #00e673*/
+
+.f3 .jq {
+    background-image: linear-gradient(green, rgb(0, 0, 0), green);
+    color: #fff;
+}
+
+
+
+h2:hover {
+    color: #000;
+}
+
+.f1 {
+    position: fixed;
+}
+
+.h1 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+}    .G a {
+    float: right;
+    margin-top: 150px;
+    margin-right: 5px;
+}

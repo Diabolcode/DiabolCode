@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 239, 241);
+    transition: all 1s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.f2 {
+    color: rgb(0, 131, 0);
+    background-color: #fff;
+    width: 250%;
+    height: 90px;
+}
+
+.f2 h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2 img {
+    margin-top: -18px;
+    width:300px;
+    float: left;
+    transition: all 0.5s;
+}
+
+
+
+.f3 {
+    background-color: rgb(68, 68, 68);
+    width: 250%;
+    height: 60px;
+    color: #fff;
+    transition: all 0.5s;
+
+}
+
+.f3 h2 {
+    margin-left: 50px;
+    display: inline-block;
+    height: 40px;
+    padding: 20px 20px 0px 20px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s;
+
+}
+
+
+/* #00e673*/
+
+.f3 .js {
+    background-image: linear-gradient(green, rgb(0, 0, 0), green);
+    color: #fff;
+}
+
+.f3 .html {
+    transition: all 0.5s;
+    margin-left: 180px;
+}
+
+h2:hover {
+    color: #000;
+    transition: all 0.5s;
+
+}
+
+.f1 {
+    position: fixed;
+}
+
+.h5 {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.d {
+    margin-left: 20px;
+}
+
+.d .h5 {
+    margin-left: 30px;
+}
+.G{
+    margin-top: 10px;
+}
+
+.G a {
+    float: right;
+    margin-top: -50px;
+    margin-right: 5px;
+}
+@media (min-width:922px) and (max-width:1250px) {
+ 
+    .f3 .html {
+        margin-left: 25px;
+    } 
+    .f3 h2 {
+        margin-left: 25px;
+    } 
+}

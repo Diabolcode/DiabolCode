@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 239, 241);
+    transition: all 0.5s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.f2 {
+    color: rgb(0, 131, 0);
+    background-color: rgb(255, 255, 255);
+    width: 250%;
+    height: 75px;
+    
+}
+
+.f2 h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2 img {
+    margin-top: -13px;
+    float: left;
+    width: 250px;
+}
+
+.f3 {
+    background-color: rgb(68, 68, 68);
+    width: 250%;
+    height: 60px;
+    color: #fff;
+}
+
+.f3 h2 {
+    margin-left: 20px;
+    display: inline-block;
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f3 .html {
+  transition: all 0.5s;
+    margin-left: 50px;
+}
+
+
+/* #00e673*/
+
+.f3 .jq {
+    background-image: linear-gradient(green, rgb(0, 0, 0), green);
+    color: #fff;
+}
+
+
+
+h2:hover {
+    color: #000;
+}
+
+.f1 {
+    position: fixed;
+}
+
+.h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.G a {
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+}

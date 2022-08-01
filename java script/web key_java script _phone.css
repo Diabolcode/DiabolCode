@@ -1,0 +1,78 @@
+
+.f2 {
+    color: rgb(0, 131, 0);
+    background-color: rgb(255, 255, 255);
+    width: 250%;
+    height: 60px;
+}
+
+.f2 h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2 img {
+    margin-top: -10px;
+    width:200px;
+    float: left;
+}
+
+.f3 {
+    width: 250%;
+    height: 45px;
+}
+
+.f3 h2 {
+    margin-left: 10px;
+    display: inline-block;
+    height: 30px;
+    padding: 8px 8px 0px 8px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.f3 .html {
+    margin-left: 0px;
+}
+
+/* #00e673*/
+
+
+.h5 {
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.d {
+    margin-left: 20px;
+}
+
+.d .h5 {
+ /*   margin-left: 30px;*/
+    text-align: center;
+}
+.G{
+    margin-top: 10px;
+}
+
+.G a {
+    float: right;
+    margin-top: -50px;
+    margin-right: 5px;
+}
+.none{
+    display:none;
+}
